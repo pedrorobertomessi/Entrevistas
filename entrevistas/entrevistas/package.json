@@ -1,0 +1,16 @@
+{
+  "name": "entrevistas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Sistema de entrevistas com avaliação por IA (critérios da vaga e metodologia STAR) e exportação em PDF",
+  "scripts": {
+    "setup": "node scripts/setup.js",
+    "dev": "node scripts/dev.js",
+    "build": "npm --prefix frontend run build",
+    "start": "node scripts/dev.js --producao"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
